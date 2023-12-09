@@ -1,4 +1,5 @@
-import { Footer } from "antd/es/layout/layout"
+
+import Footer from "../Footer"
 import Header from "../Header"
 import ProductList from "../ProductList"
 

@@ -16,12 +16,12 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<HomePage/>}/>
-        <Route path='/blog' element={<BlogHome/>}/>
-        <Route path='/category' element={<Category/>}/>
-        <Route path='/product' element={<ProductList1/>}/>
-        <Route path='/login' element={<LoginForm/>}/>
-        <Route path='/customer' element={<Customer/>}/>
+        <Route path='BigProject/' element={<HomePage/>}/>
+        <Route path='BigProject/blog' element={<BlogHome/>}/>
+        <Route path='BigProject/category' element={<Category/>}/>
+        <Route path='BigProject/product' element={<ProductList1/>}/>
+        <Route path='BigProject/login' element={<LoginForm/>}/>
+        <Route path='BigProject/customer' element={<Customer/>}/>
         <Route path='*' element={<NoPage/>}/>
       </Routes>
     </BrowserRouter>
